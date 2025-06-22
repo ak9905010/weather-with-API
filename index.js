@@ -35,7 +35,7 @@ const nextNextDate = dateFormatter.format(dayAfterTomorrow); // Jun 24
 async function getWeather() {
   try {
     var response = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=e26347435ce541e08b4210453252106&q=${cityInput.value}&days=3&aqi=no&alerts=no`
+      `https://api.weatherapi.com/v1/forecast.json?key=e26347435ce541e08b4210453252106&q=${cityInput.value}&days=3&aqi=no&alerts=no`
     );
     let data = await response.json();
 
