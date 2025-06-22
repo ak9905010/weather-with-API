@@ -1,0 +1,78 @@
+ body {
+      background: url("./assets/2.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .overlay {
+      /* background-color: rgba(92, 132, 210, 0.7); */
+      /* min-height: 100vh; */
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    header {
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(85, 81, 139, 0.447);
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    header .nav-links a {
+      color: rgba(0, 0, 0, 0.447);
+      margin-left: 20px;
+      text-decoration: none;
+    }
+
+    .main-content {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .search-bar {
+      max-width: 600px;
+      margin: 0 auto 50px auto;
+    }
+
+    .search-input {
+      border-radius: 50px 0 0 50px;
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      width: 70%;
+    }
+
+    .search-button {
+      border-radius: 0 50px 50px 0;
+      padding: 10px 30px;
+      border: none;
+      background-color: #00c8ff;
+      color: white;
+    }
+
+    .weather-box {
+      background-color: rgba(0, 0, 0, 0.304);
+      border-radius: 20px;
+      padding: 30px;
+    }
+
+    .empty-box {
+      height: 200px;
+      background-color: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+    }
+
+    .minmaxTemp{
+        padding-top: 15px;
+    }
+    
